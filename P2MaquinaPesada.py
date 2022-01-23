@@ -4,8 +4,8 @@ import os
 os.system('git clone https://github.com/CDPS-ETSIT/practica_creativa2.git')
 
 
-os.system('pip install -r practica_creativa2/bookinfo/src/productpage/requirements.txt')
-os.system('pip install --upgrade requests')
+os.system('pip3 install -r practica_creativa2/bookinfo/src/productpage/requirements.txt')
+os.system('pip3 install --upgrade requests')
 
 os.environ['GROUP_NAME'] = 'Grupo 35'
 titlename = os.environ['GROUP_NAME']
